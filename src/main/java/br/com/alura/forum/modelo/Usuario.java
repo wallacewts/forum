@@ -18,6 +18,10 @@ public class Usuario {
 
 	private String senha;
 
+	public Usuario() {
+		
+	}
+
 	@Override
 	public int hashCode() {
 		final int prime = 31;
